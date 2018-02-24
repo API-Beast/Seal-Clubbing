@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://ScreenShake.gd" type="Script" id=1]
 [ext_resource path="res://Mob.tscn" type="PackedScene" id=2]
@@ -10,6 +10,7 @@
 [ext_resource path="res://Assets/bar.png" type="Texture" id=8]
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=9]
 [ext_resource path="res://SFX/swoosh.wav" type="AudioStream" id=10]
+[ext_resource path="res://lighty.tscn" type="PackedScene" id=11]
 
 [sub_resource type="CanvasItemMaterial" id=1]
 
@@ -162,7 +163,6 @@ position = Vector2( 848.409, 217.835 )
 
 [node name="BackgroundElements" type="Node2D" parent="." index="4"]
 
-editor/display_folded = true
 position = Vector2( -61.8176, 24.727 )
 z_index = -300
 _sections_unfolded = [ "Z Index" ]
@@ -303,5 +303,25 @@ max_distance = 2000.0
 attenuation = 1.0
 bus = "Master"
 area_mask = 1
+
+[node name="Sprite" parent="." index="11" instance=ExtResource( 11 )]
+
+position = Vector2( -332.174, -399.451 )
+rotation = -0.409905
+
+[node name="Sprite2" parent="." index="12" instance=ExtResource( 11 )]
+
+position = Vector2( 1383.36, 975.501 )
+rotation = 2.38821
+
+[node name="Sprite3" parent="." index="13" instance=ExtResource( 11 )]
+
+position = Vector2( 1795.43, -374.223 )
+rotation = 0.717482
+
+[node name="Sprite4" parent="." index="14" instance=ExtResource( 11 )]
+
+position = Vector2( 340.585, -462.522 )
+rotation = 0.11908
 
 
