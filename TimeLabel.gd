@@ -9,4 +9,6 @@ func _ready():
 func _process(delta):
 	if timer > 0.0:
 		timer -= delta
-		text = str(floor(timer))+"s"
+		text = str(ceil(timer))+"s"
+	else:
+		GameState.game_over()
