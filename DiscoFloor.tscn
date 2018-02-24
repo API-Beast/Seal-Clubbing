@@ -1,8 +1,14 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://glow.tres" type="Environment" id=1]
 [ext_resource path="res://Assets/background-colored.png" type="Texture" id=2]
 [ext_resource path="res://glowtile.tscn" type="PackedScene" id=3]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+
+render_priority = 0
+blend_mode = 0
+light_mode = 1
 
 [node name="DiscoFloor" type="Node2D" index="0"]
 
@@ -14,12 +20,13 @@ environment = ExtResource( 1 )
 
 [node name="background-colored" type="Sprite" parent="." index="1"]
 
+material = SubResource( 1 )
 position = Vector2( 704, 192 )
 scale = Vector2( 32, 19 )
 z_index = -4096
 z_as_relative = false
 texture = ExtResource( 2 )
-_sections_unfolded = [ "Z Index" ]
+_sections_unfolded = [ "Material", "Z Index" ]
 
 [node name="glowtile9" parent="background-colored" index="0" instance=ExtResource( 3 )]
 

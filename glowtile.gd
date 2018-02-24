@@ -22,6 +22,8 @@ func _process(delta):
 		for i in range(0,10):
 			$AnimationPlayer.queue(anis[randi()%anis.size()])
 			color = colors[randi()%colors.size()]
+			$Light2D.color = color
 	
 	#Blend animation color to background color
 	$".".modulate = bg.linear_interpolate(color, pulse)
+	$Light2D.energy = pulse*pulse*pulse
