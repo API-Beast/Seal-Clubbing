@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Broken_Fiction.ogg-e00b388359183859f00770f3d16d4ebc.oggstr"
+
+[deps]
+
+source_file="res://Music/Broken_Fiction.ogg"
+source_md5="a004c649776297c09d721fdbb52d60aa"
+
+dest_files=[ "res://.import/Broken_Fiction.ogg-e00b388359183859f00770f3d16d4ebc.oggstr" ]
+dest_md5="2ba65e474cfcac354e29ed8ce42dac2a"
+
+[params]
+
+loop=true
+loop_offset=0

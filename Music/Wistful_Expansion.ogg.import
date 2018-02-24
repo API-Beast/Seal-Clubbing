@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Wistful_Expansion.ogg-c63e4a0296cfeaa63980a7332e718178.oggstr"
+
+[deps]
+
+source_file="res://Music/Wistful_Expansion.ogg"
+source_md5="b57b78a97e2b14f8e1899fdc35a43c71"
+
+dest_files=[ "res://.import/Wistful_Expansion.ogg-c63e4a0296cfeaa63980a7332e718178.oggstr" ]
+dest_md5="a7c932f1cbb8446c7bd7c8d4582684aa"
+
+[params]
+
+loop=true
+loop_offset=0

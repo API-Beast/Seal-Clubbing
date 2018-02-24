@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Viennese_Doubts.ogg-1a06f80219dbc7ee845d416d10abae5b.oggstr"
+
+[deps]
+
+source_file="res://Music/Viennese_Doubts.ogg"
+source_md5="29a0193d231d2fab0670e559d89a7282"
+
+dest_files=[ "res://.import/Viennese_Doubts.ogg-1a06f80219dbc7ee845d416d10abae5b.oggstr" ]
+dest_md5="b058e8ac5eebba45ddb26738fb4385ab"
+
+[params]
+
+loop=true
+loop_offset=0

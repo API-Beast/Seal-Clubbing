@@ -7,7 +7,7 @@ var anis = ["turn_off", "turn_on", "turn_off", "turn_on", "smooth", "smooth", "s
 var colors = [Color("C95AEE"), Color("5F9AEE"), Color("F5CB6E")]
 export var speed = 1.0
 export var pulse = 0.0
-var bg = Color("211A26")
+var bg = Color("0B080C")
 var color = bg
 
 
