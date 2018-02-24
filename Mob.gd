@@ -5,7 +5,8 @@ const MOVE_SPEED = 150;
 # next position to move to
 var target;
 var is_human = false
-
+var delta_x = 0
+	
 func _ready():
 	var human_sprites = [preload("Assets/human_1.png"), preload("Assets/human_2.png"), preload("Assets/human_3.png"), preload("Assets/human_4.png"), preload("Assets/human_5.png"), preload("Assets/human_6.png"), preload("Assets/human_7.png")]
 	var seal_sprites = [preload("Assets/seal_1.png"), preload("Assets/seal_2.png"), preload("Assets/seal_3.png"), preload("Assets/seal_4.png"), preload("Assets/seal_5.png"), preload("Assets/seal_6.png")]
@@ -19,6 +20,9 @@ func _ready():
 		add_to_group("seal", true)
 	target = self.position;
 
+
+
+
 func _process(delta):
 	var speed = MOVE_SPEED * delta;
 
@@ -26,10 +30,13 @@ func _process(delta):
 		target = newRandomTarget();
 
 	var velocity = target - self.position;
+	
 	if velocity.length() > speed:
 		velocity = velocity.normalized() * speed;
 	#move_and_slide(velocity);
 	var result = move_and_collide(velocity);
+
+	$Sprite.flip_h = sign(velocity.x) == 1
 	
 	if result:
 		target = newRandomTarget();
