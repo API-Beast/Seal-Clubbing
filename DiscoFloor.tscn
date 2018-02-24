@@ -28,7 +28,7 @@ scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile10" parent="background-colored" index="1" instance=ExtResource( 3 )]
 
-position = Vector2( -14, 3.36842 )
+position = Vector2( 16, -6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile11" parent="background-colored" index="2" instance=ExtResource( 3 )]
@@ -43,7 +43,7 @@ scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile16" parent="background-colored" index="4" instance=ExtResource( 3 )]
 
-position = Vector2( -18, 0 )
+position = Vector2( -4, -20.2105 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile17" parent="background-colored" index="5" instance=ExtResource( 3 )]
@@ -68,7 +68,7 @@ scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile50" parent="background-colored" index="9" instance=ExtResource( 3 )]
 
-position = Vector2( 22, 0 )
+position = Vector2( 22, 3.36842 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile83" parent="background-colored" index="10" instance=ExtResource( 3 )]
@@ -78,177 +78,172 @@ scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile51" parent="background-colored" index="11" instance=ExtResource( 3 )]
 
-position = Vector2( -2, 13.4737 )
+position = Vector2( -4, 13.4737 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile52" parent="background-colored" index="12" instance=ExtResource( 3 )]
 
-position = Vector2( -6, 10.1053 )
+position = Vector2( -8, 10.1053 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile53" parent="background-colored" index="13" instance=ExtResource( 3 )]
 
-position = Vector2( -10, 6.73684 )
+position = Vector2( -12, 6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile54" parent="background-colored" index="14" instance=ExtResource( 3 )]
 
-position = Vector2( 18, -3.36842 )
+position = Vector2( 12, -10.1053 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile55" parent="background-colored" index="15" instance=ExtResource( 3 )]
 
-position = Vector2( 14, -6.73684 )
+position = Vector2( 16, -13.4737 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile56" parent="background-colored" index="16" instance=ExtResource( 3 )]
+[node name="glowtile57" parent="background-colored" index="16" instance=ExtResource( 3 )]
 
-position = Vector2( 10, -10.1053 )
+position = Vector2( 12, -16.8421 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile57" parent="background-colored" index="17" instance=ExtResource( 3 )]
+[node name="glowtile58" parent="background-colored" index="17" instance=ExtResource( 3 )]
 
-position = Vector2( 6, -13.4737 )
+position = Vector2( -4, -13.4737 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile58" parent="background-colored" index="18" instance=ExtResource( 3 )]
+[node name="glowtile59" parent="background-colored" index="18" instance=ExtResource( 3 )]
 
-position = Vector2( -2, -13.4737 )
+position = Vector2( -8, -16.8421 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile59" parent="background-colored" index="19" instance=ExtResource( 3 )]
+[node name="glowtile60" parent="background-colored" index="19" instance=ExtResource( 3 )]
 
-position = Vector2( -6, -16.8421 )
+position = Vector2( -12, -6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile60" parent="background-colored" index="20" instance=ExtResource( 3 )]
+[node name="glowtile61" parent="background-colored" index="20" instance=ExtResource( 3 )]
 
-position = Vector2( -10, -6.73684 )
+position = Vector2( -16, -3.36842 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile61" parent="background-colored" index="21" instance=ExtResource( 3 )]
+[node name="glowtile66" parent="background-colored" index="21" instance=ExtResource( 3 )]
 
-position = Vector2( -14, -3.36842 )
+position = Vector2( -20, -6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile66" parent="background-colored" index="22" instance=ExtResource( 3 )]
+[node name="glowtile67" parent="background-colored" index="22" instance=ExtResource( 3 )]
 
-position = Vector2( -18, -6.73684 )
+position = Vector2( -16, -10.1053 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile67" parent="background-colored" index="23" instance=ExtResource( 3 )]
+[node name="glowtile68" parent="background-colored" index="23" instance=ExtResource( 3 )]
 
-position = Vector2( -14, -10.1053 )
+position = Vector2( -12, -13.4737 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile68" parent="background-colored" index="24" instance=ExtResource( 3 )]
+[node name="glowtile69" parent="background-colored" index="24" instance=ExtResource( 3 )]
 
-position = Vector2( -10, -13.4737 )
+position = Vector2( -8, -10.1053 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile69" parent="background-colored" index="25" instance=ExtResource( 3 )]
+[node name="glowtile70" parent="background-colored" index="25" instance=ExtResource( 3 )]
 
-position = Vector2( -6, -10.1053 )
+position = Vector2( 8, -20.2105 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile70" parent="background-colored" index="26" instance=ExtResource( 3 )]
+[node name="glowtile71" parent="background-colored" index="26" instance=ExtResource( 3 )]
 
-position = Vector2( 10, -16.8421 )
+position = Vector2( 20, -10.1053 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile71" parent="background-colored" index="27" instance=ExtResource( 3 )]
+[node name="glowtile73" parent="background-colored" index="27" instance=ExtResource( 3 )]
 
-position = Vector2( 14, -13.4737 )
+position = Vector2( 24, -6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 [node name="glowtile72" parent="background-colored" index="28" instance=ExtResource( 3 )]
 
-position = Vector2( 18, -10.1053 )
+position = Vector2( 8, -13.4737 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile73" parent="background-colored" index="29" instance=ExtResource( 3 )]
+[node name="glowtile74" parent="background-colored" index="29" instance=ExtResource( 3 )]
 
-position = Vector2( 22, -6.73684 )
+position = Vector2( 22, 10.1053 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile74" parent="background-colored" index="30" instance=ExtResource( 3 )]
+[node name="glowtile75" parent="background-colored" index="30" instance=ExtResource( 3 )]
 
-position = Vector2( 22, 6.73684 )
+position = Vector2( 18, 13.4737 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile75" parent="background-colored" index="31" instance=ExtResource( 3 )]
+[node name="glowtile76" parent="background-colored" index="31" instance=ExtResource( 3 )]
 
-position = Vector2( 18, 10.1053 )
+position = Vector2( 14, 16.8421 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile76" parent="background-colored" index="32" instance=ExtResource( 3 )]
+[node name="glowtile77" parent="background-colored" index="32" instance=ExtResource( 3 )]
 
-position = Vector2( 14, 13.4737 )
+position = Vector2( 10, 20.2105 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile77" parent="background-colored" index="33" instance=ExtResource( 3 )]
+[node name="glowtile78" parent="background-colored" index="33" instance=ExtResource( 3 )]
 
-position = Vector2( 10, 16.8421 )
+position = Vector2( -8, 16.8421 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile78" parent="background-colored" index="34" instance=ExtResource( 3 )]
+[node name="glowtile79" parent="background-colored" index="34" instance=ExtResource( 3 )]
 
-position = Vector2( -6, 16.8421 )
+position = Vector2( -12, 13.4737 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile79" parent="background-colored" index="35" instance=ExtResource( 3 )]
+[node name="glowtile80" parent="background-colored" index="35" instance=ExtResource( 3 )]
 
-position = Vector2( -10, 13.4737 )
+position = Vector2( -16, 10.1053 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile80" parent="background-colored" index="36" instance=ExtResource( 3 )]
+[node name="glowtile81" parent="background-colored" index="36" instance=ExtResource( 3 )]
 
-position = Vector2( -14, 10.1053 )
+position = Vector2( -20, 6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile81" parent="background-colored" index="37" instance=ExtResource( 3 )]
+[node name="glowtile82" parent="background-colored" index="37" instance=ExtResource( 3 )]
 
-position = Vector2( -18, 6.73684 )
+position = Vector2( -4, 20.2105 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile82" parent="background-colored" index="38" instance=ExtResource( 3 )]
+[node name="glowtile62" parent="background-colored" index="38" instance=ExtResource( 3 )]
 
-position = Vector2( -18, 6.73684 )
+position = Vector2( 6, 16.8421 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile62" parent="background-colored" index="39" instance=ExtResource( 3 )]
+[node name="glowtile63" parent="background-colored" index="39" instance=ExtResource( 3 )]
 
-position = Vector2( 6, 13.4737 )
+position = Vector2( 10, 13.4737 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile63" parent="background-colored" index="40" instance=ExtResource( 3 )]
+[node name="glowtile64" parent="background-colored" index="40" instance=ExtResource( 3 )]
 
-position = Vector2( 10, 10.1053 )
+position = Vector2( 14, 10.1053 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile64" parent="background-colored" index="41" instance=ExtResource( 3 )]
+[node name="glowtile65" parent="background-colored" index="41" instance=ExtResource( 3 )]
 
-position = Vector2( 14, 6.73684 )
+position = Vector2( 18, 6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile65" parent="background-colored" index="42" instance=ExtResource( 3 )]
+[node name="glowtile21" parent="background-colored" index="42" instance=ExtResource( 3 )]
 
-position = Vector2( 18, 3.36842 )
+position = Vector2( 26, 6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile21" parent="background-colored" index="43" instance=ExtResource( 3 )]
-
-position = Vector2( 2, 16.8421 )
-scale = Vector2( 0.03125, 0.0526316 )
-
-[node name="glowtile22" parent="background-colored" index="44" instance=ExtResource( 3 )]
+[node name="glowtile22" parent="background-colored" index="43" instance=ExtResource( 3 )]
 
 position = Vector2( 6, -6.73684 )
 scale = Vector2( 0.03125, 0.0526316 )
 
-[node name="glowtile23" parent="background-colored" index="45" instance=ExtResource( 3 )]
+[node name="glowtile23" parent="background-colored" index="44" instance=ExtResource( 3 )]
 
-position = Vector2( 2, -16.8421 )
+position = Vector2( 0, -16.8421 )
 scale = Vector2( 0.03125, 0.0526316 )
 
 
