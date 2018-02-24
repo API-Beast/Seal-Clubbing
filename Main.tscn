@@ -31,7 +31,7 @@ tracks/0/keys = {
 custom_solver_bias = 0.0
 extents = Vector2( 297.168, 94.8072 )
 
-[node name="Level" type="StaticBody2D" index="0"]
+[node name="Level" type="StaticBody2D"]
 
 position = Vector2( 956.284, 538.858 )
 input_pickable = false
