@@ -8,7 +8,7 @@
 [ext_resource path="res://Assets/bar.png" type="Texture" id=6]
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=7]
 
-[node name="Level" type="StaticBody2D" index="0"]
+[node name="Level" type="StaticBody2D"]
 
 position = Vector2( 188.747, 357.099 )
 input_pickable = false

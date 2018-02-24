@@ -5,7 +5,7 @@ extends Sprite
 
 var anis = ["turn_off", "turn_on", "turn_off", "turn_on", "smooth", "smooth", "smooth", "quick_flash", "quick_flash", "quick_flash", "short_pulse", "short_pulse", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none"]
 var colors = [Color("C95AEE"), Color("5F9AEE"), Color("F5CB6E")]
-export var speed = 1.0
+export var speed = 2.0
 export var pulse = 0.0
 var bg = Color("0B080C")
 var color = bg
