@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/background-colored.png-2af0a03400f62e88db90788e1e050cbf.stex"
+path="res://.import/gameover-drawing.jpg-f2bb0e6d9ec16c48ecd629be909882f5.stex"
 
 [deps]
 
-source_file="res://Assets/background-colored.png"
-source_md5="24075eb74bb7d24d0951de8ee4cf2da2"
+source_file="res://Assets/gameover-drawing.jpg"
+source_md5="ccc849b5be073b39014be37ee0a6fc15"
 
-dest_files=[ "res://.import/background-colored.png-2af0a03400f62e88db90788e1e050cbf.stex" ]
-dest_md5="b5daff846ebc3c7cd18c67a5598eb921"
+dest_files=[ "res://.import/gameover-drawing.jpg-f2bb0e6d9ec16c48ecd629be909882f5.stex" ]
+dest_md5="75a3ed142bac48c68f91a386a2bf3d34"
 
 [params]
 

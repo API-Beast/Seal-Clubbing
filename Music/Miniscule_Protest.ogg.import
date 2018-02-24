@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Miniscule_Protest.ogg-d8e4a13d7c2d02dcae55926947c87068.oggstr"
+
+[deps]
+
+source_file="res://Music/Miniscule_Protest.ogg"
+source_md5="e51444d92490c2656a105da237d571b8"
+
+dest_files=[ "res://.import/Miniscule_Protest.ogg-d8e4a13d7c2d02dcae55926947c87068.oggstr" ]
+dest_md5="3fc4819a867302d37ce33c746a5a7b6a"
+
+[params]
+
+loop=true
+loop_offset=0

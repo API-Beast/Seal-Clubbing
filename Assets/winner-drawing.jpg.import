@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/background-colored.png-2af0a03400f62e88db90788e1e050cbf.stex"
+path="res://.import/winner-drawing.jpg-725412ba5daf949db2f7b55ed3f8e28a.stex"
 
 [deps]
 
-source_file="res://Assets/background-colored.png"
-source_md5="24075eb74bb7d24d0951de8ee4cf2da2"
+source_file="res://Assets/winner-drawing.jpg"
+source_md5="01b9acfdb3cf3c19d996f4cf6e9b88fc"
 
-dest_files=[ "res://.import/background-colored.png-2af0a03400f62e88db90788e1e050cbf.stex" ]
-dest_md5="b5daff846ebc3c7cd18c67a5598eb921"
+dest_files=[ "res://.import/winner-drawing.jpg-725412ba5daf949db2f7b55ed3f8e28a.stex" ]
+dest_md5="8613289c0fd38ba54aec060b11918e33"
 
 [params]
 
