@@ -34,7 +34,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 0.285156, 0.285156, 0.285156, 1 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[node name="Level" type="StaticBody2D"]
+[node name="Level" type="StaticBody2D" index="0"]
 
 position = Vector2( 256.747, 293.099 )
 input_pickable = false
@@ -149,7 +149,7 @@ position = Vector2( 196.143, 506.451 )
 
 [node name="DiscoFloor" parent="." index="2" instance=ExtResource( 2 )]
 
-position = Vector2( 102.288, 27.527 )
+position = Vector2( 3.37991, 80.0719 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="PlayerController" parent="." index="3" instance=ExtResource( 3 )]
@@ -158,10 +158,7 @@ position = Vector2( 848.409, 217.835 )
 
 [node name="BackgroundElements" type="Node2D" parent="." index="4"]
 
-editor/display_folded = true
-__meta__ = {
-"_edit_lock_": true
-}
+position = Vector2( -61.8176, 24.727 )
 
 [node name="dj" type="Sprite" parent="BackgroundElements" index="0"]
 
@@ -208,7 +205,7 @@ root_node = NodePath("..")
 autoplay = "discoflicker"
 playback_process_mode = 1
 playback_default_blend_time = 0.0
-playback_speed = 4.0
+playback_speed = 6.0
 anims/discoflicker = SubResource( 2 )
 blend_times = [  ]
 _sections_unfolded = [ "Playback Options" ]
