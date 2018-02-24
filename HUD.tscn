@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Font.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Humans Label.gd" type="Script" id=2]
 [ext_resource path="res://TimeLabel.gd" type="Script" id=3]
+[ext_resource path="res://LivesLabel.gd" type="Script" id=4]
 
 [node name="HUD" type="CanvasLayer" index="0"]
 
@@ -68,6 +69,30 @@ lines_skipped = 0
 max_lines_visible = -1
 script = ExtResource( 3 )
 _sections_unfolded = [ "custom_fonts" ]
-timer_length = 30
+timer_length = 60
+
+[node name="LivesLabel" type="Label" parent="Control" index="2"]
+
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_left = -96.0
+margin_top = 101.0
+margin_right = -1.0
+margin_bottom = 150.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 1 )
+text = "+++++"
+align = 2
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+script = ExtResource( 4 )
+_sections_unfolded = [ "custom_colors", "custom_constants", "custom_fonts" ]
 
 
