@@ -3,7 +3,7 @@ extends Sprite
 # class member variables go here, for example:
 
 
-var anis = ["turn_off", "turn_on", "smooth", "smooth", "smooth", "quick_flash", "short_pulse", "short_pulse", "none", "none", "none", "none", "none", "none", "none", "none"]
+var anis = ["turn_off", "turn_on", "turn_off", "turn_on", "smooth", "smooth", "smooth", "quick_flash", "quick_flash", "quick_flash", "short_pulse", "short_pulse", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none", "none"]
 var colors = [Color("C95AEE"), Color("5F9AEE"), Color("F5CB6E")]
 export var speed = 1.0
 export var pulse = 0.0
@@ -26,4 +26,4 @@ func _process(delta):
 	
 	#Blend animation color to background color
 	$".".modulate = bg.linear_interpolate(color, pulse)
-	$Light2D.energy = pulse*pulse*pulse * 0.5
+	$Light2D.energy = pulse * 0.5

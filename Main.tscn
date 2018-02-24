@@ -1,14 +1,15 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Human.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Seal.tscn" type="PackedScene" id=2]
 [ext_resource path="res://DiscoFloor.tscn" type="PackedScene" id=3]
 [ext_resource path="res://PlayerController.tscn" type="PackedScene" id=4]
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=5]
+[ext_resource path="res://glow.tres" type="Environment" id=6]
 
 [node name="Level" type="StaticBody2D" index="0"]
 
-position = Vector2( 188.747, 357.099 )
+position = Vector2( 190.254, 357.099 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -26,6 +27,7 @@ color = Color( 0, 0, 0, 1 )
 [node name="Human" parent="GameObjects" index="0" instance=ExtResource( 1 )]
 
 position = Vector2( 562.228, 626.333 )
+_sections_unfolded = [ "Material", "Transform" ]
 
 [node name="Seal" parent="GameObjects" index="1" instance=ExtResource( 2 )]
 
@@ -39,5 +41,9 @@ _sections_unfolded = [ "Transform" ]
 [node name="PlayerController" parent="." index="3" instance=ExtResource( 4 )]
 
 [node name="HUD" parent="." index="4" instance=ExtResource( 5 )]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="5"]
+
+environment = ExtResource( 6 )
 
 
