@@ -159,6 +159,8 @@ position = Vector2( 848.409, 217.835 )
 [node name="BackgroundElements" type="Node2D" parent="." index="4"]
 
 position = Vector2( -61.8176, 24.727 )
+z_index = -300
+_sections_unfolded = [ "Z Index" ]
 
 [node name="dj" type="Sprite" parent="BackgroundElements" index="0"]
 
@@ -196,8 +198,10 @@ shadow_item_cull_mask = 1
 
 material = SubResource( 1 )
 position = Vector2( 756.503, 174.609 )
+z_index = 300
+z_as_relative = false
 texture = ExtResource( 6 )
-_sections_unfolded = [ "Material", "Visibility" ]
+_sections_unfolded = [ "Material", "Visibility", "Z Index" ]
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundElements/discoball" index="0"]
 
