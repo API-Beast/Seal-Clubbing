@@ -147,7 +147,6 @@ blend_times = [  ]
 
 [node name="Light2D" type="Light2D" parent="." index="1"]
 
-position = Vector2( -192, -128 )
 scale = Vector2( 384, 256 )
 enabled = true
 editor_only = false

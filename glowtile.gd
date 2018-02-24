@@ -26,4 +26,4 @@ func _process(delta):
 	
 	#Blend animation color to background color
 	$".".modulate = bg.linear_interpolate(color, pulse)
-	$Light2D.energy = pulse*pulse*pulse
+	$Light2D.energy = pulse*pulse*pulse * 0.5
