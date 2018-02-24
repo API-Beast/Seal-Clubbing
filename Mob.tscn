@@ -1,34 +1,35 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Seal.gd" type="Script" id=1]
-[ext_resource path="res://Assets/seal_1.png" type="Texture" id=2]
+[ext_resource path="res://Mob.gd" type="Script" id=1]
+[ext_resource path="res://Assets/human_1.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 70.0215, 64.7102 )
+extents = Vector2( 102.868, 44.432 )
 
-[node name="Seal" type="KinematicBody2D" groups=[
-"seals",
+[node name="Mob" type="KinematicBody2D" groups=[
+"mob",
 ]]
 
-position = Vector2( 588.587, -33.4741 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
-test = null
+is_human = false
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
+show_behind_parent = true
+position = Vector2( 3.02276, -8.63051 )
 scale = Vector2( 0.652671, 0.652671 )
 texture = ExtResource( 2 )
-_sections_unfolded = [ "Animation", "Material", "Offset", "Region", "Transform", "Visibility" ]
+_sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
-position = Vector2( -8.86548, 19.5944 )
+position = Vector2( 11.296, 29.3664 )
 shape = SubResource( 1 )
 
 
