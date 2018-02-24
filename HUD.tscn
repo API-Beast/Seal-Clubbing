@@ -1,9 +1,31 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Font.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Humans Label.gd" type="Script" id=2]
 [ext_resource path="res://TimeLabel.gd" type="Script" id=3]
 [ext_resource path="res://LivesLabel.gd" type="Script" id=4]
+[ext_resource path="res://WinScreen.gd" type="Script" id=5]
+[ext_resource path="res://Assets/LLDISCO_.TTF" type="DynamicFontData" id=6]
+[ext_resource path="res://DefeatScreen.gd" type="Script" id=7]
+
+[sub_resource type="Gradient" id=2]
+
+offsets = PoolRealArray( 0, 0.970414 )
+colors = PoolColorArray( 0, 0, 0, 1, 0.316406, 0.316406, 0.316406, 1 )
+
+[sub_resource type="GradientTexture" id=3]
+
+flags = 4
+gradient = SubResource( 2 )
+width = 2048
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 80
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 6 )
+_sections_unfolded = [ "Font", "Settings" ]
 
 [node name="HUD" type="CanvasLayer" index="0"]
 
@@ -19,6 +41,8 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_top = 8.0
+margin_bottom = 8.0
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 0
 mouse_default_cursor_shape = 0
@@ -69,7 +93,7 @@ lines_skipped = 0
 max_lines_visible = -1
 script = ExtResource( 3 )
 _sections_unfolded = [ "custom_fonts" ]
-timer_length = 60
+timer_length = 15
 
 [node name="LivesLabel" type="Label" parent="Control" index="2"]
 
@@ -94,5 +118,89 @@ lines_skipped = 0
 max_lines_visible = -1
 script = ExtResource( 4 )
 _sections_unfolded = [ "custom_colors", "custom_constants", "custom_fonts" ]
+
+[node name="WinScreen" type="TextureRect" parent="Control" index="3"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = SubResource( 3 )
+expand = true
+stretch_mode = 0
+script = ExtResource( 5 )
+
+[node name="Label" type="Label" parent="Control/WinScreen" index="0"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -452.0
+margin_top = -41.0
+margin_right = 452.0
+margin_bottom = 41.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+text = "All Humans Eliminated!!"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="DefeatScreen" type="TextureRect" parent="Control" index="4"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = SubResource( 3 )
+expand = true
+stretch_mode = 0
+script = ExtResource( 7 )
+
+[node name="Label" type="Label" parent="Control/DefeatScreen" index="0"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -934.0
+margin_top = -36.0
+margin_right = 954.0
+margin_bottom = 46.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+text = "The Seals are outraged by the human presence!
+
+You lose!"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
 
 

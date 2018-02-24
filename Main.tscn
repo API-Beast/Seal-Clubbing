@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Mob.tscn" type="PackedScene" id=1]
 [ext_resource path="res://DiscoFloor.tscn" type="PackedScene" id=2]
@@ -7,8 +7,9 @@
 [ext_resource path="res://Assets/discoball.png" type="Texture" id=5]
 [ext_resource path="res://Assets/bar.png" type="Texture" id=6]
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Assets/glow-light.png" type="Texture" id=8]
 
-[node name="Level" type="StaticBody2D" index="0"]
+[node name="Level" type="StaticBody2D"]
 
 position = Vector2( 188.747, 357.099 )
 input_pickable = false
@@ -26,7 +27,6 @@ color = Color( 0, 0, 0, 1 )
 
 [node name="GameObjects" type="Node2D" parent="." index="1"]
 
-editor/display_folded = true
 position = Vector2( -198.638, -366.452 )
 _sections_unfolded = [ "Transform" ]
 
@@ -37,7 +37,6 @@ position = Vector2( 349.899, 708.887 )
 [node name="Mob2" parent="GameObjects" index="1" instance=ExtResource( 1 )]
 
 position = Vector2( 502.128, 349.899 )
-is_human = true
 
 [node name="Mob3" parent="GameObjects" index="2" instance=ExtResource( 1 )]
 
@@ -50,7 +49,6 @@ position = Vector2( 697.527, 681.622 )
 [node name="Mob5" parent="GameObjects" index="4" instance=ExtResource( 1 )]
 
 position = Vector2( 1190.57, 727.064 )
-is_human = true
 
 [node name="Mob6" parent="GameObjects" index="5" instance=ExtResource( 1 )]
 
@@ -71,7 +69,6 @@ position = Vector2( 874.749, 163.589 )
 [node name="Mob10" parent="GameObjects" index="9" instance=ExtResource( 1 )]
 
 position = Vector2( 665.718, 504.401 )
-is_human = true
 
 [node name="Mob11" parent="GameObjects" index="10" instance=ExtResource( 1 )]
 
@@ -88,7 +85,6 @@ position = Vector2( 372.49, 885.802 )
 [node name="Mob14" parent="GameObjects" index="13" instance=ExtResource( 1 )]
 
 position = Vector2( 196.143, 506.451 )
-is_human = true
 
 [node name="DiscoFloor" parent="." index="2" instance=ExtResource( 2 )]
 
@@ -137,5 +133,86 @@ polygon = PoolVector2Array( 774.071, -360.066, 1773.53, 166.098, 1823.88, -488.4
 
 build_mode = 0
 polygon = PoolVector2Array( 1719.22, 176.019, 1661, 491.1, 1458.93, 539.047, 1787.71, 710.286, 572.156, 845.937, -480.776, 715.485, -704.408, 855.255, 961.969, 1409.24, 2144.63, 811.413 )
+
+[node name="Light2D" type="Light2D" parent="." index="9"]
+
+position = Vector2( -94.8221, -202.235 )
+rotation = 0.051966
+scale = Vector2( 3.24721, 5.02973 )
+enabled = true
+editor_only = false
+texture = ExtResource( 8 )
+offset = Vector2( 0, 0 )
+texture_scale = 1.0
+color = Color( 0.51828, 0.540087, 0.867188, 1 )
+energy = 0.8
+mode = 0
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+
+[node name="Light2D3" type="Light2D" parent="." index="10"]
+
+position = Vector2( 1564.23, -252.586 )
+rotation = 0.051966
+scale = Vector2( 3.24721, 5.02973 )
+enabled = true
+editor_only = false
+texture = ExtResource( 8 )
+offset = Vector2( 0, 0 )
+texture_scale = 1.0
+color = Color( 0.804688, 0.336334, 0.336334, 1 )
+energy = 0.8
+mode = 0
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+
+[node name="Light2D2" type="Light2D" parent="." index="11"]
+
+position = Vector2( 1417, 571.232 )
+rotation = 0.051966
+scale = Vector2( 3.49096, 5.40955 )
+enabled = true
+editor_only = false
+texture = ExtResource( 8 )
+offset = Vector2( 0, 0 )
+texture_scale = 1.0
+color = Color( 0.203857, 0.652344, 0.242399, 1 )
+energy = 0.6
+mode = 0
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
 
 
