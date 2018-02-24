@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/seal.wav-3e72c150b6acf02a171ab16cc5f5f615.sample"
+
+[deps]
+
+source_file="res://SFX/seal.wav"
+source_md5="76293fa18f68d44aadf832229d3b96a2"
+
+dest_files=[ "res://.import/seal.wav-3e72c150b6acf02a171ab16cc5f5f615.sample" ]
+dest_md5="c8d5b8ba2159526a8da20751e7a23fa0"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
