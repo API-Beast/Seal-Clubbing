@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/glowtile.png-a20eff5754b039abe8f5938b4823d995.stex"
+path="res://.import/glowtile.png-8f7039235e31d659e5ab324dbc365a58.stex"
 
 [deps]
 
-source_file="res://glowtile.png"
+source_file="res://Assets/glowtile.png"
 source_md5="fb968510333199470379258e6b92c971"
 
-dest_files=[ "res://.import/glowtile.png-a20eff5754b039abe8f5938b4823d995.stex" ]
+dest_files=[ "res://.import/glowtile.png-8f7039235e31d659e5ab324dbc365a58.stex" ]
 dest_md5="767c2f56747bb50ca2c1a2dc9fec17a6"
 
 [params]
