@@ -7,10 +7,10 @@ path="res://.import/glow-light.png-df02cddbb0fa3ec89ad2b3bd3e1c41aa.stex"
 [deps]
 
 source_file="res://Assets/glow-light.png"
-source_md5="4046f72a3d7479531d869583029edaa8"
+source_md5="3dd92dfb8e3b286ed2b8819b7391937f"
 
 dest_files=[ "res://.import/glow-light.png-df02cddbb0fa3ec89ad2b3bd3e1c41aa.stex" ]
-dest_md5="c28ec1cb7e728a81267bad42a98026c5"
+dest_md5="9f4b423d9b720a0d0c5682df3eb9c5d3"
 
 [params]
 
