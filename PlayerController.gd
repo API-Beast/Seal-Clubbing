@@ -18,5 +18,5 @@ func _physics_process(delta):
 				obj["collider"].queue_free()
 			else:
 				obj["collider"].queue_free()
-				GameState.lives -= 1
+				GameState.reduce_lives()
 			return
