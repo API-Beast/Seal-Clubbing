@@ -36,7 +36,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 0.285156, 0.285156, 0.285156, 1 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[node name="Level" type="StaticBody2D"]
+[node name="Level" type="StaticBody2D" index="0"]
 
 position = Vector2( 256.747, 293.099 )
 input_pickable = false
@@ -58,6 +58,7 @@ color = Color( 0, 0, 0, 1 )
 
 [node name="GameObjects" type="YSort" parent="." index="1"]
 
+editor/display_folded = true
 position = Vector2( -198.638, -366.452 )
 sort_enabled = true
 _sections_unfolded = [ "Transform" ]

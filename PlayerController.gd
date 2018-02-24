@@ -31,6 +31,7 @@ func _physics_process(delta):
 				else:
 					$AudioStreamPlayer2D.set_stream(seals[randi()%seals.size()])
 					$AudioStreamPlayer2D.play()
+					GameState.shake = 80
 					collider.queue_free()
 					GameState.reduce_lives()
 				return
