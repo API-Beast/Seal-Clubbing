@@ -63,7 +63,7 @@ show_behind_parent = true
 position = Vector2( 3.02276, -8.63051 )
 scale = Vector2( 0.652671, 0.652671 )
 texture = ExtResource( 2 )
-_sections_unfolded = [ "Transform", "Visibility" ]
+_sections_unfolded = [ "Animation", "Offset", "Region", "Transform", "Visibility" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
