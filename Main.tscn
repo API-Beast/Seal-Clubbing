@@ -1,12 +1,13 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Mob.tscn" type="PackedScene" id=1]
 [ext_resource path="res://DiscoFloor.tscn" type="PackedScene" id=2]
 [ext_resource path="res://PlayerController.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/dj.png" type="Texture" id=4]
-[ext_resource path="res://Assets/discoball.png" type="Texture" id=5]
-[ext_resource path="res://Assets/bar.png" type="Texture" id=6]
-[ext_resource path="res://HUD.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Assets/glow-light.png" type="Texture" id=5]
+[ext_resource path="res://Assets/discoball.png" type="Texture" id=6]
+[ext_resource path="res://Assets/bar.png" type="Texture" id=7]
+[ext_resource path="res://HUD.tscn" type="PackedScene" id=8]
 
 [sub_resource type="CanvasItemMaterial" id=1]
 
@@ -62,7 +63,6 @@ position = Vector2( 349.899, 708.887 )
 [node name="Mob2" parent="GameObjects" index="1" instance=ExtResource( 1 )]
 
 position = Vector2( 502.128, 349.899 )
-is_human = true
 
 [node name="Mob3" parent="GameObjects" index="2" instance=ExtResource( 1 )]
 
@@ -75,7 +75,6 @@ position = Vector2( 697.527, 681.622 )
 [node name="Mob5" parent="GameObjects" index="4" instance=ExtResource( 1 )]
 
 position = Vector2( 1190.57, 727.064 )
-is_human = true
 
 [node name="Mob6" parent="GameObjects" index="5" instance=ExtResource( 1 )]
 
@@ -96,7 +95,6 @@ position = Vector2( 874.749, 163.589 )
 [node name="Mob10" parent="GameObjects" index="9" instance=ExtResource( 1 )]
 
 position = Vector2( 665.718, 504.401 )
-is_human = true
 
 [node name="Mob11" parent="GameObjects" index="10" instance=ExtResource( 1 )]
 
@@ -113,7 +111,6 @@ position = Vector2( 372.49, 885.802 )
 [node name="Mob14" parent="GameObjects" index="13" instance=ExtResource( 1 )]
 
 position = Vector2( 196.143, 506.451 )
-is_human = true
 
 [node name="DiscoFloor" parent="." index="2" instance=ExtResource( 2 )]
 
@@ -134,12 +131,38 @@ position = Vector2( 1045.07, 339.855 )
 scale = Vector2( 0.715411, 0.715411 )
 texture = ExtResource( 4 )
 
+[node name="Light2D" type="Light2D" parent="BackgroundElements/dj" index="0"]
+
+position = Vector2( 754.811, 516.672 )
+scale = Vector2( 1.3978, 1.3978 )
+enabled = true
+editor_only = false
+texture = ExtResource( 5 )
+offset = Vector2( 0, 0 )
+texture_scale = 5.0
+color = Color( 0.799111, 0.878906, 0.470352, 1 )
+energy = 0.4
+mode = 0
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+
 [node name="discoball" type="Sprite" parent="BackgroundElements" index="1"]
 
 modulate = Color( 0.813849, 0.813849, 0.813849, 1 )
 material = SubResource( 1 )
 position = Vector2( 756.503, 174.609 )
-texture = ExtResource( 5 )
+texture = ExtResource( 6 )
 _sections_unfolded = [ "Material", "Visibility" ]
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundElements/discoball" index="0"]
@@ -157,9 +180,35 @@ _sections_unfolded = [ "Playback Options" ]
 
 position = Vector2( 1029.87, 34.6011 )
 scale = Vector2( 0.728628, 0.728628 )
-texture = ExtResource( 6 )
+texture = ExtResource( 7 )
 
-[node name="HUD" parent="." index="5" instance=ExtResource( 7 )]
+[node name="Light2D" type="Light2D" parent="BackgroundElements/bar" index="0"]
+
+position = Vector2( 781.68, -371.127 )
+scale = Vector2( 1.37244, 1.37244 )
+enabled = true
+editor_only = false
+texture = ExtResource( 5 )
+offset = Vector2( 0, 0 )
+texture_scale = 5.0
+color = Color( 0.878906, 0.470352, 0.470352, 1 )
+energy = 0.4
+mode = 0
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+
+[node name="HUD" parent="." index="5" instance=ExtResource( 8 )]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="6"]
 
