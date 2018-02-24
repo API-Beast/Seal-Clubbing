@@ -4,10 +4,10 @@
 [ext_resource path="res://Assets/human_1.png" type="Texture" id=2]
 [ext_resource path="res://Anivariety.gd" type="Script" id=3]
 
-[sub_resource type="RectangleShape2D" id=1]
+[sub_resource type="CircleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 102.868, 44.432 )
+radius = 51.5772
 
 [sub_resource type="Animation" id=2]
 
@@ -43,7 +43,7 @@ tracks/1/keys = {
 [node name="Mob" type="KinematicBody2D" index="0" groups=[
 "mob",
 ]]
-
+scale = Vector2( 0.85, 0.85 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -60,7 +60,7 @@ _sections_unfolded = [ "Animation", "Offset", "Region", "Transform", "Visibility
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
-position = Vector2( 11.296, 29.3664 )
+position = Vector2( -8.02649, 39.5893 )
 shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
