@@ -29,7 +29,7 @@ tracks/0/keys = {
 custom_solver_bias = 0.0
 extents = Vector2( 297.168, 94.8072 )
 
-[node name="Level" type="StaticBody2D" index="0"]
+[node name="Level" type="StaticBody2D"]
 
 input_pickable = false
 collision_layer = 1
