@@ -9,7 +9,7 @@
 [ext_resource path="res://Assets/lose.png" type="Texture" id=7]
 [ext_resource path="res://DefeatScreen.gd" type="Script" id=8]
 
-[node name="HUD" type="CanvasLayer"]
+[node name="HUD" type="CanvasLayer" index="0"]
 
 layer = 1
 offset = Vector2( 0, 0 )

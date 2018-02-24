@@ -36,7 +36,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 0.285156, 0.285156, 0.285156, 1 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[node name="Level" type="StaticBody2D" index="0"]
+[node name="Level" type="StaticBody2D"]
 
 position = Vector2( 256.747, 293.099 )
 input_pickable = false
