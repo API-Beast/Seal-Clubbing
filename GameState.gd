@@ -3,6 +3,7 @@ extends Node
 export var lives = 3
 export var state = "GAME"
 export var restart_timer = 3
+export var song = 0
 
 func _ready():
 	randomize()
