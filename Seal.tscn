@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/character.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 24.0112, 30.9082 )
+
+[node name="Seal" type="KinematicBody2D"]
+
+position = Vector2( 588.587, -33.4741 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+modulate = Color( 0.5, 0.929688, 1, 1 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Material", "Visibility" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( -1.46301, 12.1919 )
+shape = SubResource( 1 )
+
+
