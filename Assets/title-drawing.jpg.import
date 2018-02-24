@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/glowtile.png-8f7039235e31d659e5ab324dbc365a58.stex"
+path="res://.import/title-drawing.jpg-d5a289cedf629cf60b8f6c4a9c468517.stex"
 
 [deps]
 
-source_file="res://Assets/glowtile.png"
-source_md5="01f2b3bbc2a1e8083434c0aca65c40f7"
+source_file="res://Assets/title-drawing.jpg"
+source_md5="01b9acfdb3cf3c19d996f4cf6e9b88fc"
 
-dest_files=[ "res://.import/glowtile.png-8f7039235e31d659e5ab324dbc365a58.stex" ]
-dest_md5="bcb1b9bfc26b08b20da1daece00ea8a2"
+dest_files=[ "res://.import/title-drawing.jpg-d5a289cedf629cf60b8f6c4a9c468517.stex" ]
+dest_md5="8613289c0fd38ba54aec060b11918e33"
 
 [params]
 
