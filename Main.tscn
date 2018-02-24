@@ -31,7 +31,7 @@ tracks/0/keys = {
 custom_solver_bias = 0.0
 extents = Vector2( 297.168, 94.8072 )
 
-[node name="Level" type="StaticBody2D"]
+[node name="Level" type="StaticBody2D" index="0"]
 
 position = Vector2( 956.284, 538.858 )
 input_pickable = false
@@ -105,7 +105,7 @@ _sections_unfolded = [ "Drag Margin", "Limit", "Offset", "Smoothing" ]
 
 [node name="DiscoFloor" parent="." index="6" instance=ExtResource( 4 )]
 
-position = Vector2( -557.403, 124.602 )
+position = Vector2( -705.765, -162.849 )
 
 [node name="PlayerController" parent="." index="7" instance=ExtResource( 5 )]
 
