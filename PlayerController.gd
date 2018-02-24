@@ -16,14 +16,17 @@ func _physics_process(delta):
 	var phys = get_world_2d().direct_space_state
 	var result = phys.intersect_point(click_position, 3)
 	for obj in result:
-		if obj["collider"].is_in_group("mob"):
-			if obj["collider"].is_human:
+		var collider = obj["collider"]
+		if collider.has_method("get_obj"):
+			collider = collider.get_obj()
+		if collider.is_in_group("mob"):
+			if collider.is_human:
 				$AudioStreamPlayer2D.set_stream(humans[randi()%humans.size()])
 				$AudioStreamPlayer2D.play()
-				obj["collider"].queue_free()
+				collider.queue_free()
 			else:
 				$AudioStreamPlayer2D.set_stream(seals[randi()%seals.size()])
 				$AudioStreamPlayer2D.play()
-				obj["collider"].queue_free()
+				collider.queue_free()
 				GameState.reduce_lives()
 			return
