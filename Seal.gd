@@ -26,15 +26,13 @@ func _process(delta):
 	
 func newRandomTarget():
 	var Floor = $"../../Floor"
-	if Floor:
-		var extents = Floor.shape.extents;
-		
-		var hWidth = extents.x;
-		var posx = Floor.position.x + rand_range(- hWidth, hWidth);
-		
-		var hHeight = extents.y;
-		var posy = Floor.position.y + rand_range(- hHeight, hHeight);
-		
-		return Vector2(posx, posy);
-	return Vector2(0, 0)
+	var extents = Floor.shape.extents;
+	
+	var hWidth = extents.x;
+	var posx = Floor.position.x + rand_range(- hWidth, hWidth);
+	
+	var hHeight = extents.y;
+	var posy = Floor.position.y + rand_range(- hHeight, hHeight);
+	
+	return Vector2(posx, posy);
 	

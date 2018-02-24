@@ -1,10 +1,15 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Human.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Seal.tscn" type="PackedScene" id=2]
 [ext_resource path="res://DiscoFloor.tscn" type="PackedScene" id=3]
 [ext_resource path="res://PlayerController.tscn" type="PackedScene" id=4]
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 820.487, 273.413 )
 
 [node name="Level" type="StaticBody2D" index="0"]
 
@@ -39,5 +44,11 @@ _sections_unfolded = [ "Transform" ]
 [node name="PlayerController" parent="." index="3" instance=ExtResource( 4 )]
 
 [node name="HUD" parent="." index="4" instance=ExtResource( 5 )]
+
+[node name="Floor" type="CollisionShape2D" parent="." index="5"]
+
+position = Vector2( 777.927, 185.943 )
+shape = SubResource( 1 )
+disabled = true
 
 
