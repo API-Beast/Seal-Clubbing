@@ -12,7 +12,8 @@ func _ready():
 
 #func _process(delta):
 	if not self.playing:
-		self.set_stream(load(tracks[randi() % tracks.size()]))
+		GameState.song = (GameState.song + randi()) % tracks.size();
+		self.set_stream(load(tracks[GameState.song]))
 		self.play()
 		
 #	# Called every frame. Delta is time since last frame.

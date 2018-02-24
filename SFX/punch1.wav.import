@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/punch1.wav-e087fdeb97af898ab45b8c23ed180cdf.sample"
+
+[deps]
+
+source_file="res://SFX/punch1.wav"
+source_md5="90c06fe7e59489134151eafa7c1443e6"
+
+dest_files=[ "res://.import/punch1.wav-e087fdeb97af898ab45b8c23ed180cdf.sample" ]
+dest_md5="ca5b8c5d2eb235b1fc10edc557890a79"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
