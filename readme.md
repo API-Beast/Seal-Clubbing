@@ -1,7 +1,10 @@
 SEAL CLUBBING
 -----------------
 
-Screen cap: (https://i.imgur.com/Fgftmdl.gifv)
+!(https://i.imgur.com/Fgftmdl.gifhttps://i.imgur.com/Fgftmdl.gif)
+
+Gameplay Gifv: (https://i.imgur.com/Fgftmdl.gifv)
+
 
 A small 8 hour jam game made for the February Berlin Mini Game Jam - http://berlinminijam.de
 
