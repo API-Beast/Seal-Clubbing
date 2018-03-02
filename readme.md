@@ -1,7 +1,7 @@
 SEAL CLUBBING
 -----------------
 
-![animated screenshot](https://imgur.com/a/gpIBk)
+![animated screenshot](https://imgur.com/a/46yBR)
 
 A small 8 hour jam game made for the February Berlin Mini Game Jam - http://berlinminijam.de
 
