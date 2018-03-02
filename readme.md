@@ -1,7 +1,7 @@
 SEAL CLUBBING
 -----------------
 
-!(https://i.imgur.com/Fgftmdl.gifhttps://i.imgur.com/Fgftmdl.gif)
+![Still image](https://i.imgur.com/Fgftmdl.gifhttps://i.imgur.com/Fgftmdl.gif)
 
 Gameplay Gifv: (https://i.imgur.com/Fgftmdl.gifv)
 
