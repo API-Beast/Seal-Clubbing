@@ -5,6 +5,7 @@ SEAL CLUBBING
 
 Gameplay Gifv: (https://i.imgur.com/Fgftmdl.gifv)
 
+![Warning - bad code](https://i.imgur.com/k8W0KcI.png)
 
 A small 8 hour jam game made for the February Berlin Mini Game Jam - http://berlinminijam.de
 
